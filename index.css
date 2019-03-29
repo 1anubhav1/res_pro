@@ -22,6 +22,10 @@
     position: relative;
 }
 
+body{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images10.jpg")center/cover fixed no-repeat;
+}
+
 
 .height-90{
     min-height: calc(100vh - 94px);
@@ -133,12 +137,12 @@
 }
 
 
-#special{
+/* #special{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images10.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
-}
+} */
 
 
 .item-container{
@@ -207,11 +211,11 @@
 }
 
 #about{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images17.jpg");
-    height: 100vh;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+    /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images17.jpg"); */
+    /* height: 100vh; */
+    /* background-attachment: fixed; */
+    /* background-size: cover;
+    background-position: center; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
@@ -260,6 +264,9 @@
 }
 
 
+
+
+
 .about-image:hover{
     outline: 4px solid red;
     outline-offset: 0.4rem;
@@ -271,3 +278,91 @@
 .about-picture:hover  .about-image:not(:hover){
     opacity: 0.5;
 }
+
+#reviews{
+    margin-top: 40px;
+    /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images21.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+.review-img{
+    width: 100px;
+}
+
+/* #reviews h2,p{
+    color: white;
+} */
+
+
+#reviews h2,p{
+    margin-left: 200px!important;
+}
+
+.review-item{
+    background: rgba(255,255,255,0.7);
+    clip-path: polygon(5% 10%,100% 0%,90% 100%,0% 100%);
+}
+
+#slide{
+    background: rgba(131, 116, 116, 0.918);
+    height: 300px;
+}
+
+#slide .carousel-item{
+    margin-top: 40px;
+}
+
+#section .card{
+    background: rgba(0,0,0,0.5);
+
+}
+
+#section .form-control{
+border-radius: 0px!important;
+width: 650px;
+}
+
+#section .card-header{
+    color: red;
+}
+
+#section .input-group-text{
+    background: pink;
+    border-color: rgb(233, 150, 164);
+    color: black
+}
+
+#section .card input::placeholder{
+    color: rgb(21, 221, 221);
+}
+
+#section button{
+    color: pink;
+    border-color: blue;
+    background: gray;
+    transition: all 1s ease-in-out
+}
+
+#section button:hover{
+    background: rgb(104, 100, 100);
+    color: purple;
+    border-color: none;
+    text-shadow: 1px 4px 15px rgb(250, 7, 7);  
+
+
+}
+
+.toggler-btn{
+    border: 2px solid black;
+    padding: 5px;
+    transition: all 2s ease
+}
+
+.bar{
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    background: #d3325f;
+}
+
